@@ -8,7 +8,7 @@
     ],
     "parser": "@typescript-eslint/parser",
     "plugins": [
-      "@typescript-eslint"
+      "@typescript-eslint", "prettier"
     ],
     "parserOptions": {
       "project": "./tsconfig.json",
