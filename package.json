@@ -7,7 +7,7 @@
     "start": "ts-node src/index.ts",
     "package": "rimraf dist && tsc && npm link --force",
     "audit-ci": "npx audit-ci --config ./audit-ci.json",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\"",
     "pretty": "prettier --config prettier.config.js --write \"src/**/*.ts\" \"src/**/*.json\"",
     "pretty-cli": "prettier --config prettier.config.js --list-different \"src/**/*.ts\" \"src/**/*.json\"",
     "lint": "eslint \"src/**/*.ts\"",
